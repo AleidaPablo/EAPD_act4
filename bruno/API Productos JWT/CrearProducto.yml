@@ -10,10 +10,10 @@ http:
     type: json
     data: |-
       {
-        "nombre": "Laptop ASUS",
-        "descripcion": "16GB RAM",
-        "precio": 18500.00,
-        "stock": 10
+        "nombre": "IPhone 18",
+        "descripcion": "16GB",
+        "precio": 20000.00,
+        "stock": 5
       }
   auth: inherit
 
