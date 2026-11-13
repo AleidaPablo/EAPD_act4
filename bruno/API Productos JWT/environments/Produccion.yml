@@ -1,0 +1,8 @@
+name: Produccion
+variables:
+  - name: baseUrl
+    value: http://178.128.155.105:8085
+    description: ""
+  - name: token
+    value: ""
+    description: ""
