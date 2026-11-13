@@ -1,0 +1,25 @@
+info:
+  name: ActualizarProducto
+  type: http
+  seq: 7
+
+http:
+  method: PUT
+  url: "{{baseUrl}}/api/productos/1"
+  body:
+    type: json
+    data: |-
+      {
+        "nombre": "Alaciadora",
+        "descripcion": "Color Rojo",
+        "precio": 2000.00,
+        "stock": 5
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

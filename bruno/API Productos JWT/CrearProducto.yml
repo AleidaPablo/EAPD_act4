@@ -1,0 +1,25 @@
+info:
+  name: CrearProducto
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/productos"
+  body:
+    type: json
+    data: |-
+      {
+        "nombre": "Laptop ASUS",
+        "descripcion": "16GB RAM",
+        "precio": 18500.00,
+        "stock": 10
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
